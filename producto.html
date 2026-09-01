@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="pageTitle">Producto · Dasama Joyería</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 90'%3E%3Cpath d='M20 25 L50 8 L80 25 L95 25 L50 88 L5 25 Z' fill='none' stroke='%23111' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="page">
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="index.html" class="brand">
+        <svg class="icon" viewBox="0 0 100 90" style="width:26px; height:24px; stroke:var(--gold);">
+          <path d="M20 25 L50 8 L80 25 L95 25 L50 88 L5 25 Z"/>
+          <path d="M20 25 L80 25"/>
+          <path d="M35 25 L50 8 L65 25"/>
+          <path d="M35 25 L50 88"/>
+          <path d="M65 25 L50 88"/>
+        </svg>
+        <span class="brand-name">DASAMA</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html#colecciones">Colecciones</a>
+        <a href="index.html#taller">Nosotros</a>
+        <a href="index.html#destacados">Piezas</a>
+        <a href="index.html#visitanos">Visítanos</a>
+      </nav>
+      <a href="index.html#visitanos" class="btn btn-outline nav-cta">Contáctanos</a>
+      <button class="nav-burger" id="navBurger" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+        <svg viewBox="0 0 24 24" class="burger-icon"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- BREADCRUMB -->
+  <div class="crumb">
+    <div class="container crumb-row">
+      <a href="index.html">Inicio</a>
+      <span>/</span>
+      <a href="index.html#destacados" id="crumbCategory">Piezas</a>
+      <span>/</span>
+      <span class="crumb-current" id="crumbTitle">Producto</span>
+    </div>
+  </div>
+
+  <!-- PRODUCT -->
+  <section class="product-page">
+    <div class="container product-grid">
+
+      <div class="gallery">
+        <div class="gallery-main" id="galleryMain"></div>
+        <div class="gallery-thumbs" id="galleryThumbs"></div>
+      </div>
+
+      <div class="product-detail">
+        <p class="eyebrow" id="detailCategory">Categoría</p>
+        <h1 class="product-detail-title" id="detailTitle">Producto</h1>
+        <p class="product-detail-price" id="detailPrice">Precio a consultar</p>
+        <p class="product-detail-text" id="detailText"></p>
+
+        <div class="qty-row">
+          <div class="qty-stepper">
+            <button class="qty-btn" id="qtyMinus" type="button" aria-label="Restar">–</button>
+            <span class="qty-value" id="qtyValue">1</span>
+            <button class="qty-btn" id="qtyPlus" type="button" aria-label="Sumar">+</button>
+          </div>
+        </div>
+
+        <div class="buy-row">
+          <a class="btn btn-whatsapp" id="whatsappBtn" href="#" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" class="wa-icon"><path d="M4 20l1.3-3.9A8 8 0 1 1 8.7 19L4 20z"/><path d="M8.5 9.5c.3 2.5 2.5 4.7 5 5"/></svg>
+            Comprar por WhatsApp
+          </a>
+          <p class="buy-note">Te atendemos directo por WhatsApp para confirmar disponibilidad, talla y envío.</p>
+        </div>
+
+        <div class="specs">
+          <p class="specs-title">Características</p>
+          <div class="specs-grid">
+            <div>
+              <p class="spec-label">Material</p>
+              <p class="spec-value">Oro 18K</p>
+            </div>
+            <div>
+              <p class="spec-label">Categoría</p>
+              <p class="spec-value" id="specCategory">—</p>
+            </div>
+            <div>
+              <p class="spec-label">Personalización</p>
+              <p class="spec-value">Disponible</p>
+            </div>
+            <div>
+              <p class="spec-label">Garantía</p>
+              <p class="spec-value">Incluida</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <svg viewBox="0 0 100 90" class="footer-mark">
+        <path d="M20 25 L50 8 L80 25 L95 25 L50 88 L5 25 Z"/>
+        <path d="M20 25 L80 25"/>
+        <path d="M35 25 L50 8 L65 25"/>
+        <path d="M35 25 L50 88"/>
+        <path d="M65 25 L50 88"/>
+      </svg>
+      <p class="footer-brand">DASAMA JOYERÍA</p>
+      <p class="footer-address">Centro Comercial Hollywood · Piso Dorado · Local 203 · Medellín</p>
+      <div class="footer-rule"></div>
+      <p class="footer-copy">© 2026 Dasama Joyería · @joyeria_dasama</p>
+    </div>
+  </footer>
+
+</div>
+
+<script src="catalog.js"></script>
+<script src="producto.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

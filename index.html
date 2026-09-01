@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dasama Joyería</title>
+  <meta name="description" content="Dasama Joyería — fabricación y reparación de joyas en oro 18K. Centro Comercial Hollywood, Piso Dorado, Local 203, Medellín.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 90'%3E%3Cpath d='M20 25 L50 8 L80 25 L95 25 L50 88 L5 25 Z' fill='none' stroke='%23111' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="page">
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <svg class="icon" viewBox="0 0 100 90" style="width:26px; height:24px; stroke:var(--gold);">
+          <path d="M20 25 L50 8 L80 25 L95 25 L50 88 L5 25 Z"/>
+          <path d="M20 25 L80 25"/>
+          <path d="M35 25 L50 8 L65 25"/>
+          <path d="M35 25 L50 88"/>
+          <path d="M65 25 L50 88"/>
+        </svg>
+        <span class="brand-name">DASAMA</span>
+      </div>
+      <nav class="nav-links" id="navLinks">
+        <a href="#colecciones">Colecciones</a>
+        <a href="#taller">Nosotros</a>
+        <a href="#destacados">Piezas</a>
+        <a href="#visitanos">Visítanos</a>
+      </nav>
+      <a href="#visitanos" class="btn btn-outline nav-cta">Contáctanos</a>
+      <button class="nav-burger" id="navBurger" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+        <svg viewBox="0 0 24 24" class="burger-icon"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-inner">
+      <svg viewBox="0 0 100 90" class="hero-mark">
+        <path d="M20 25 L50 8 L80 25 L95 25 L50 88 L5 25 Z"/>
+        <path d="M20 25 L80 25"/>
+        <path d="M35 25 L50 8 L65 25"/>
+        <path d="M35 25 L50 88"/>
+        <path d="M65 25 L50 88"/>
+        <path d="M5 25 L35 25"/>
+        <path d="M65 25 L95 25"/>
+      </svg>
+      <div class="hero-word">
+        <h1 class="hero-title">DASAMA</h1>
+        <p class="hero-sub">Joyería</p>
+      </div>
+      <div class="divider"></div>
+      <p class="hero-tagline">Fabricación y reparación de joyas en oro 18K. Piezas exclusivas, hechas a mano, en el corazón de Medellín.</p>
+      <div class="hero-actions">
+        <a href="#destacados" class="btn btn-gold">Ver Piezas</a>
+        <a href="https://www.instagram.com/joyeria_dasama/" target="_blank" rel="noopener" class="btn btn-outline">Síguenos @joyeria_dasama</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <section class="trust">
+    <div class="container trust-grid">
+      <div class="trust-item">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M12 3 L20 6 V12 C20 17 16.5 20 12 21 C7.5 20 4 17 4 12 V6 Z"/><path d="M8.5 12 L11 14.5 L16 9"/></svg>
+        <div>
+          <p class="trust-title">Oro 18K Garantizado</p>
+          <p class="trust-sub">Calidad certificada</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M12 3c2 3 4 5 4 8a4 4 0 0 1-8 0c0-1 .5-2 1-3"/></svg>
+        <div>
+          <p class="trust-title">Fabricación Artesanal</p>
+          <p class="trust-sub">Cada pieza, hecha a mano</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <svg class="icon" viewBox="0 0 24 24"><path d="M12 3 L13.5 10.5 L21 12 L13.5 13.5 L12 21 L10.5 13.5 L3 12 L10.5 10.5 Z"/></svg>
+        <div>
+          <p class="trust-title">Diseños Personalizados</p>
+          <p class="trust-sub">Nombres, iniciales y más</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLECCIONES -->
+  <section id="colecciones" class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Nuestras Colecciones</p>
+        <h2 class="section-title">Cada pieza, a tu medida</h2>
+      </div>
+      <div class="grid grid-6 grid-lines">
+
+        <div class="card coll-card">
+          <span class="medal">
+            <img src="images/anillo-esmeralda.jpg" alt="Anillos Dasama Joyería">
+          </span>
+          <h3>Anillos</h3>
+          <p class="muted">Solitarios, personalizados y de 15 años</p>
+        </div>
+
+        <div class="card coll-card">
+          <span class="medal">
+            <img src="images/argolla-matrimonio.jpg" alt="Argollas Dasama Joyería">
+          </span>
+          <h3>Argollas</h3>
+          <p class="muted">De matrimonio, en oro 18K garantizado</p>
+        </div>
+
+        <div class="card coll-card">
+          <span class="medal">
+            <img src="images/manillas.jpg" alt="Pulseras Dasama Joyería">
+          </span>
+          <h3>Pulseras</h3>
+          <p class="muted">De bolas, ajustables y a tu gusto</p>
+        </div>
+
+        <div class="card coll-card">
+          <span class="medal">
+            <img src="images/cadena.jpg" alt="Dijes y cadenas Dasama Joyería">
+          </span>
+          <h3>Dijes y Cadenas</h3>
+          <p class="muted">Iniciales, esmeraldas y piezas únicas</p>
+        </div>
+
+        <div class="card coll-card">
+          <span class="medal">
+            <img src="images/aretes.jpg" alt="Aretas Dasama Joyería">
+          </span>
+          <h3>Aretas</h3>
+          <p class="muted">Candongas, topos y balines diamantados</p>
+        </div>
+
+        <div class="card coll-card">
+          <span class="medal">
+            <img src="images/anillo-nombre.jpg" alt="Nombres y grabados Dasama Joyería">
+          </span>
+          <h3>Nombres y Grabados</h3>
+          <p class="muted">Placas y anillos con tu nombre</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- TALLER / SOBRE NOSOTROS -->
+  <section id="taller" class="section section-cream">
+    <div class="container split">
+      <div class="taller-copy">
+        <p class="eyebrow">Nuestro Taller</p>
+        <h2 class="section-title">Fabricación propia, oro 18K garantizado</h2>
+        <p class="body-text">En nuestro taller de Medellín fabricamos y reparamos cada pieza a mano. Trabajamos oro 18K garantizado y damos vida a diseños exclusivos, personalizados y hechos para durar.</p>
+        <div class="stat-row">
+          <div>
+            <p class="stat-num">18K</p>
+            <p class="stat-label">Oro garantizado</p>
+          </div>
+          <div>
+            <p class="stat-num">100%</p>
+            <p class="stat-label">Fabricación propia</p>
+          </div>
+        </div>
+      </div>
+      <div class="taller-photo">
+        <img src="images/anillo-esmeralda.jpg" alt="Anillo en oro 18K con esmeralda, fabricado por Dasama Joyería" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- DESTACADOS -->
+  <section id="destacados" class="section">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Piezas Destacadas</p>
+        <h2 class="section-title">Diseños que enamoran</h2>
+        <p class="section-hint">Toca una pieza para ver el detalle</p>
+      </div>
+
+      <div class="grid grid-6 grid-gap">
+
+        <a class="product-card" href="producto.html?p=anillo-halo-esmeralda">
+          <span class="product-thumb">
+            <img src="images/anillo-esmeralda.jpg" alt="Anillo Halo Esmeralda, Dasama Joyería">
+          </span>
+          <span class="product-info">
+            <span class="product-name">Anillo Halo Esmeralda</span>
+            <span class="product-tag">Esmeralda y diamantes, oro 18K</span>
+          </span>
+        </a>
+
+        <a class="product-card" href="producto.html?p=anillo-solitario-diamante">
+          <span class="product-thumb">
+            <img src="images/anillo-diamante-pera.jpg" alt="Anillo Solitario Diamante, Dasama Joyería">
+          </span>
+          <span class="product-info">
+            <span class="product-name">Anillo Solitario Diamante</span>
+            <span class="product-tag">Diamante talla pera, oro 18K</span>
+          </span>
+        </a>
+
+        <a class="product-card" href="producto.html?p=anillo-con-nombre">
+          <span class="product-thumb">
+            <img src="images/anillo-nombre.jpg" alt="Anillo con Nombre, Dasama Joyería">
+          </span>
+          <span class="product-info">
+            <span class="product-name">Anillo con Nombre</span>
+            <span class="product-tag">Personalizado con tu nombre</span>
+          </span>
+        </a>
+
+        <a class="product-card" href="producto.html?p=cadenas-oro-18k">
+          <span class="product-thumb">
+            <img src="images/cadena.jpg" alt="Cadenas en Oro 18K, Dasama Joyería">
+          </span>
+          <span class="product-info">
+            <span class="product-name">Cadenas en Oro 18K</span>
+            <span class="product-tag">Varios diseños disponibles</span>
+          </span>
+        </a>
+
+        <a class="product-card" href="producto.html?p=pulseras-de-bolas">
+          <span class="product-thumb">
+            <img src="images/manillas.jpg" alt="Pulseras de Bolas, Dasama Joyería">
+          </span>
+          <span class="product-info">
+            <span class="product-name">Pulseras de Bolas</span>
+            <span class="product-tag">Ajustables, oro 18K</span>
+          </span>
+        </a>
+
+        <a class="product-card" href="producto.html?p=argolla-matrimonio">
+          <span class="product-thumb">
+            <img src="images/argolla-matrimonio.jpg" alt="Argolla de Matrimonio, Dasama Joyería">
+          </span>
+          <span class="product-info">
+            <span class="product-name">Argolla de Matrimonio</span>
+            <span class="product-tag">Oro 18K garantizado</span>
+          </span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GARANTIA BAND -->
+  <section class="promise">
+    <div class="container promise-row">
+      <div class="promise-item">
+        <p class="promise-num">Oro 18K</p>
+        <p class="promise-label">Garantizado</p>
+      </div>
+      <div class="divider promise-divider"></div>
+      <div class="promise-item">
+        <p class="promise-num">Diseño</p>
+        <p class="promise-label">Exclusivo</p>
+      </div>
+      <div class="divider promise-divider"></div>
+      <div class="promise-item">
+        <p class="promise-num">Reparación</p>
+        <p class="promise-label">Y Ajuste</p>
+      </div>
+      <div class="divider promise-divider"></div>
+      <div class="promise-item">
+        <p class="promise-num">A Tu Medida</p>
+        <p class="promise-label">Personalización</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISITANOS -->
+  <section id="visitanos" class="section">
+    <div class="container split split-reverse">
+      <div class="visit-copy">
+        <div>
+          <p class="eyebrow">Visítanos</p>
+          <h2 class="section-title">Te esperamos en Medellín</h2>
+        </div>
+        <div class="visit-row">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M12 21s7-7.5 7-12a7 7 0 1 0-14 0c0 4.5 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+          <div>
+            <p class="visit-title">Centro Comercial Hollywood</p>
+            <p class="visit-sub">Piso Dorado · Local 203<br>Medellín, Colombia</p>
+          </div>
+        </div>
+        <div class="visit-row">
+          <svg class="icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.2" cy="6.8" r="0.9" fill="var(--gold-2)" stroke="none"/></svg>
+          <div>
+            <p class="visit-title">@joyeria_dasama</p>
+            <p class="visit-sub">Síguenos para ver nuestras últimas piezas</p>
+          </div>
+        </div>
+        <div class="visit-row">
+          <svg class="icon" viewBox="0 0 24 24"><path d="M4 20l1.3-3.9A8 8 0 1 1 8.7 19L4 20z"/><path d="M8.5 9.5c.3 2.5 2.5 4.7 5 5"/></svg>
+          <div>
+            <p class="visit-title">WhatsApp</p>
+            <p class="visit-sub">+57 320 956 6486</p>
+          </div>
+        </div>
+        <div class="visit-row">
+          <svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+          <div>
+            <p class="visit-title">Horario de atención</p>
+            <p class="visit-sub">7am - 5pm</p>
+          </div>
+        </div>
+        <div class="visit-actions">
+          <a href="https://wa.me/573209566486" target="_blank" rel="noopener" class="btn btn-whatsapp">
+            <svg viewBox="0 0 24 24" class="wa-icon"><path d="M4 20l1.3-3.9A8 8 0 1 1 8.7 19L4 20z"/><path d="M8.5 9.5c.3 2.5 2.5 4.7 5 5"/></svg>
+            Escríbenos por WhatsApp
+          </a>
+          <a href="https://www.instagram.com/joyeria_dasama/" target="_blank" rel="noopener" class="btn btn-outline-dark">Instagram</a>
+        </div>
+      </div>
+      <a class="visit-map" href="https://www.google.com/maps/search/?api=1&query=Centro+Comercial+Hollywood+Medell%C3%ADn" target="_blank" rel="noopener">
+        <img src="images/mapa-ubicacion.jpg" alt="Ubicación de Dasama Joyería, Centro Comercial Hollywood, Medellín">
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <svg viewBox="0 0 100 90" class="footer-mark">
+        <path d="M20 25 L50 8 L80 25 L95 25 L50 88 L5 25 Z"/>
+        <path d="M20 25 L80 25"/>
+        <path d="M35 25 L50 8 L65 25"/>
+        <path d="M35 25 L50 88"/>
+        <path d="M65 25 L50 88"/>
+      </svg>
+      <p class="footer-brand">DASAMA JOYERÍA</p>
+      <p class="footer-address">Centro Comercial Hollywood · Piso Dorado · Local 203 · Medellín</p>
+      <div class="footer-rule"></div>
+      <p class="footer-copy">© 2026 Dasama Joyería · @joyeria_dasama</p>
+    </div>
+  </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
